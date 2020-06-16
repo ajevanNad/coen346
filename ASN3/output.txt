@@ -1,0 +1,47 @@
+Time: 1000, Process 1, STARTED
+Time: 1000, Process 1, RESUMED
+Time: 1565, Process 1, Store: Variable 1, Value: 5
+Time: 1565, Process 1, PAUSED
+Time: 1565, Process 1, RESUMED
+Time: 1670, Process 1, Store: Variable 2, Value: 3
+Time: 1670, Process 1, PAUSED
+Time: 1670, Process 1, RESUMED
+Time: 1939, Process 1, Store: Variable 3, Value: 7
+Time: 1939, Process 1, PAUSED
+Time: 1939, Process 1, RESUMED
+Time: 2919, Memory Manager, Swap: Variable 3 with Variable 1
+Time: 2929, Process 1, Lookup: Variable 3, Value: 7
+Time: 2929, Process 1, PAUSED
+Time: 2929, Process 0, STARTED
+Time: 2929, Process 2, STARTED
+Time: 2929, Process 2, RESUMED
+Time: 2929, Process 0, RESUMED
+Time: 3078, Process 2, Lookup: Variable 2, Value: 3
+Time: 3078, Process 2, PAUSED
+Time: 3078, Process 1, RESUMED
+Time: 3282, Process 0, Release: Variable 1
+Time: 3282, Process 0, PAUSED
+Time: 3353, Process 1, Store: Variable 1, Value: 8
+Time: 3353, Process 0, RESUMED
+Time: 3452, Memory Manager, Swap: Variable 1 with Variable 3
+Time: 3462, Process 0, Lookup: Variable 1, Value: 8
+Time: 3353, Process 1, PAUSED
+Time: 3462, Process 1, FINISHED
+Time: 3462, Process 0, PAUSED
+Time: 3462, Process 2, RESUMED
+Time: 3462, Process 0, RESUMED
+Time: 4383, Process 0, PAUSED
+Time: 4383, Process 2, Lookup: Variable 2, Value: 3
+Time: 4383, Process 2, PAUSED
+Time: 4383, Process 0, RESUMED
+Time: 4383, Process 2, RESUMED
+Time: 4704, Process 0, PAUSED
+Time: 5274, Process 2, PAUSED
+Time: 5274, Process 0, RESUMED
+Time: 5274, Process 2, RESUMED
+Time: 5278, Process 0, PAUSED
+Time: 5561, Process 2, PAUSED
+Time: 5561, Process 0, FINISHED
+Time: 5561, Process 2, RESUMED
+Time: 6000, Process 2, PAUSED
+Time: 6000, Process 2, FINISHED
